@@ -1,0 +1,264 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+nav #login a{
+       text-decoration: none;
+       color: white;
+}
+nav #login{
+       font-size: 15px;
+       color: white;
+       float: right;
+       height: 60px;
+       width: 100px;
+       display: inline-block;
+       line-height: 60px;
+       text-align: center;
+       margin-right: 50px;
+       text-align: center;
+      
+}
+nav #login:hover{
+      background-color:#788DE3    ;
+      transition: 0.2s all ease;
+      border-radius: 10px;
+      float: right;
+
+}
+
+nav{
+      font-family: Verdana;
+      font-weight: bold;
+      text-transform: uppercase;
+      width: 100%; 
+      height: 60px;
+      font-size: 1.6em;
+      background-color: #152081   ;
+      box-shadow: rgba(0, 0, 0, 0.5 ) 0 2px 6px 0;
+}
+nav ul{
+       list-style-type: none;
+       padding-top: 0px;
+       margin-left:5px ;
+}
+nav ul li{
+       float: left;
+       width: 145px;
+       height: 60px;
+       font-size: 15px;
+       line-height: 60px;
+       text-align: center;
+}
+nav ul li a{
+       text-decoration: none;
+       color: white;
+       display: block;
+       
+}
+nav ul li a:hover{
+      background-color:#788DE3    ;
+      transition: 0.2s all ease;
+      border-radius: 10px;
+      color: white;
+}
+.color{
+    
+}
+.container {
+
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5em;
+}
+
+.menu {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+.menu-group-heading {
+  margin: 0;
+  padding-bottom: 1em;
+  border-bottom: 2px solid #ccc;
+}
+
+.menu-group {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5em;
+  padding: 1.5em 0;
+}
+
+.menu-item {
+  display: flex;
+}
+
+.menu-item-image {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  object-fit: cover;
+  margin-right: 1.5em;
+}
+
+.menu-item-text {
+  flex-grow: 1;
+}
+
+.menu-item-heading {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.menu-item-name {
+  margin-right: 1.5em;
+}
+
+.menu-item-description {
+  line-height: 1.6;
+  
+}
+
+@media screen and (min-width: 992px) {
+  .menu {
+    font-size: 16px;
+  }
+
+  .menu-group {
+    grid-template-columns: repeat(2, 1fr);
+    transition: 1s;
+  }
+
+  .menu-item-image {
+    display:block;
+    width: 125px;
+    height: 125px;
+    box-shadow: 0 10px rgba(0, 0, 0, 0.1);
+  }
+    .menu-item-image:hover {
+      transform: scale(1.3);
+      
+    }
+
+.container_f{
+  max-width: 1300px;
+  background-color: #E3E5EC ;
+  margin: auto;
+  height: 19em;
+  padding-top: 30px;
+  padding-left: 30px;
+  font-family: Verdana;
+}
+.footer{
+  
+  background-color: #24262b;
+  padding:20px 0px ;
+  width: 100%;
+
+}
+
+
+.row{
+  display: flex;
+  flex-wrap:wrap ;
+  
+}
+.footer-col1{
+   width: 260px;
+  height: 100px;
+  text-transform: uppercase;
+  
+}
+.footer-col1 h4{
+    font-size: 1em;
+}
+.footer-col1 h5{
+     font-size: 0.8em;
+     line-height: 20px;
+     font-weight: normal;
+
+}
+.footer-col2 h4{
+  
+  padding-bottom: 10px;
+}
+.footer-col2 ul{
+      list-style: none;
+}
+.footer-col2 ul li a{
+  text-decoration: none;
+  color: black;
+  line-height: 30px;
+ 
+}
+.footer-col2{
+   text-transform: uppercase;
+   
+   padding-left: 50px;
+}
+.footer-col2 ul li a i{
+  padding-right: 5px;
+}
+.footer-col2 ul li a:hover i{
+       padding-right: 20px;
+       transition: padding-right 350ms;
+      
+}
+.footer-col4 h4{
+     padding-bottom: 10px;
+}
+.footer-col4 ul{
+      list-style: none;
+}
+.footer-col4 ul li a{
+  text-decoration: none;
+  color: black;
+  line-height: 30px;
+}
+.footer-col4{
+    text-transform: uppercase;
+    padding-left: 30px;
+   
+}
+.footer-col4 ul li a i {
+    padding-right: 20px;
+}
+.footer-col3 ul{
+  list-style: none;
+}
+
+.footer-col3 ul li{
+  display: inline-block;
+  text-decoration: none;
+  width: 30px;
+
+}
+.footer-col3 {
+   padding-right: 30px;
+   padding-left: 30px;
+   text-transform: uppercase;
+   position: relative;
+}
+.footer-col3 h4{
+    font-size: 0.98em;
+    color: black;
+    padding-bottom: 10px;
+}
+.footer-col3 .fa-brands {
+  padding-top: 2px;
+  font-size: 20px;
+  color:black;
+  transition: font-size 400ms;
+  position: absolute;
+  
+}
+.fa-brands:hover {
+       font-size: 25px;
+      
+}
